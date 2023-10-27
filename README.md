@@ -10,7 +10,7 @@ I imported work from a previous project and developed a website designed to teac
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* ![Lighthouse Score Lab5b](/img/Capture%20lab5b.PNG)
 
 ### Reflections and Comments
 

@@ -1,10 +1,10 @@
-# LAB - 04
+# LAB - 05
 
-## Pair Programming and Functions
+## Finish the About Me Project
 
-Josh and I developed a website designed to teach users interesting facts about me.
+I imported work from a previous project and developed a website designed to teach users interesting facts about me.
 
-### Author: Errol Vidad and Josh Higler
+### Author: Errol Vidad
 
 ### Links and Resources
 
@@ -14,4 +14,4 @@ Josh and I developed a website designed to teach users interesting facts about m
 
 ### Reflections and Comments
 
-* This was an assignment where Josh and I used pair programming practices to develop my code.
+* This is my finalized About Me Project. Previous iterations of this project consisted of smaller projects with various levels of difficulty designed to build upon the previous iteration.

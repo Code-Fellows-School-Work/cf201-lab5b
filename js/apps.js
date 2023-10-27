@@ -113,11 +113,11 @@ function askmyage(){
 askmyage();
 
 //created loop for array question
-let myMascot = ['Padres', 'Jaguars', 'Gulls'];
-function askmascot(){
+let myMascot = ['Padres', 'Jaguars', 'Chargers'];
+function askMascot(){
   for (let i = 1; i <= 6; i++) {
     let mascotGuess = prompt('Guess a mascot for my favorite sports team');
-    myMascot = myMascot.toLowerCase(); // I can't figure out why I can't lowercase the Teams so I removed this code
+    // mascotGuess = mascotGuess.toLowerCase(); // I can't figure out why I can't lowercase the Teams so I removed this code
     console.log(mascotGuess);
 
     if (myMascot.includes(mascotGuess)) {
@@ -130,14 +130,13 @@ function askmascot(){
 
     //after 6th attempt, lists the array within the webpage as alerts. I don't know how to join the array into a single alert
     if (i === 6) {
-      alert('Sorry that was your 6th attempt. Here are the mascots for my favorite sports team:');
-      for (let i = 0; i < myMascot.length; i++) {
-        alert(myMascot[i]);
-      }
+      let mascots = myMascot[0] + ', ' + myMascot[1] + ', ' + myMascot[2];
+      alert('Sorry that was your 6th attempt. Here are the mascots for my favorite sports team: ' + mascots);
     }
   }
 }
-askmascot();
+
+askMascot();
 
 // personally thanking user with added name for answering all questions
 alert('Thanks for playing! Correct answers: ' + correctAnswers);

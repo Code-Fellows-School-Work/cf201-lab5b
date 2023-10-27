@@ -1,14 +1,14 @@
 /* SELECTOR: "body", applies style to: <body> tag and all children */
 
 body {
-  background: #ccc;
+  background: #ECF8F8;
 }
 
 header {
-  background: #111;
-  color: green;
+  background: #EEE4E1;
   text-align: center;
   padding: 30px;
+  margin-bottom: 10px;
 }
 
 header h1 {
@@ -19,18 +19,27 @@ main {
   margin: 25px;
 }
 
-p {
-  margin: 10;
+div {
+  margin: 25px;
+  text-align: auto;
+}
+
+main p {
+  text-align:left
 }
 
 main li {
   margin: 25px;
-  list-style-type: circle;
+  list-style:circle
+}
+
+main ol li {
+  margin: 25px;
+  list-style: decimal;
 }
 
 footer {
-  background: maroon;
-  color: gray;
+  background: #EEE4E1;
   padding: 10px;
   text-align: center;
 }

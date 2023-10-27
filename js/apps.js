@@ -117,7 +117,6 @@ let myMascot = ['Padres', 'Jaguars', 'Chargers'];
 function askMascot(){
   for (let i = 1; i <= 6; i++) {
     let mascotGuess = prompt('Guess a mascot for my favorite sports team');
-    // mascotGuess = mascotGuess.toLowerCase(); // I can't figure out why I can't lowercase the Teams so I removed this code
     console.log(mascotGuess);
 
     if (myMascot.includes(mascotGuess)) {
